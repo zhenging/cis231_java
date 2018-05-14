@@ -51,7 +51,7 @@ private static double average2(int [][] arr) {
 ```
 
 [3] Given this class, please add the requested methods in the designated spaces provided.
-```
+```java
 public class Student {
     private int ID;
     private String name;
@@ -99,9 +99,10 @@ public class Student {
     }
 }
 ```
+
 [4] What are the compile-time and run-time types of the following variables?  Use the classes from the PersonDemo example.
 a)
-```
+```java
 // a
 // CT: Person
 // RT: Person
@@ -129,7 +130,7 @@ Person e = new Employee();
 ```
 
 [5]Is this assignment legal?  Why or why not?
-```
+```java
 Employee z = new Person();
 ```
 Not legal. The static type of `new Person()` is `Person`, and `Person` IS-NOT-A `Employee`.

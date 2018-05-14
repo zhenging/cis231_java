@@ -126,6 +126,7 @@ Employee d = new Employee();
 // CT: Person
 // RT: Employee
 Person e = new Employee();
+```
 
 [5]Is this assignment legal?  Why or why not?
 ```
